@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Ação</title>
+</head>
+<body>
+
+    <div id="content">
+        <form action="" method="post"  >
+            <label for="valCot">Nome da Ação</label>
+            <input type="text" name="acao " id="acao">
+       
+             <label for="valCot">Valor da Cotação de Compra</label>
+             <input type="number" name="valCot" id="valCot">
+
+             <label for="qtdCot">Quantidade de Ações</label>
+             <input type="number" name="qtdCot" id="qtdCot">
+
+             <label for="vca">Valor da Cotação Atual</label>
+             <input type="number" name="vca" id="vca">
+       
+             <input type="button" value="Calcular"   id="clice">
+         </form>
+    </div>
+ 
+   <div id="res"></div>
+   <div id="lucro"></div>
+
+<section class="pergunta">
+  <h1>Que perfil de investidor você é?</h1>
+  <div class="radio">
+     <input type="checkbox" id="conservador" name="conservador" value="conservador"
+            checked>
+     <label for="conservador">Conservador</label>
+
+     <input type="checkbox" id="moderado" name="moderado" value="moderado">
+     <label for="moderado">Moderado</label>
+
+     <input type="checkbox" id="arrojado" name="arrojado" value="arrojado">
+     <label for="arrojado">Arrojado</label>
+</section>   
+<select class="pergunta2">
+    <h1>Qual canal de comunicação você soube sobre nós?</h1>
+    <optgroup>
+        <option value=""></option>
+        <option value="internet">Internet</option>
+        <option value="amigos">Por amigos</option>
+        <option value="outro">Outros</option>
+    </optgroup>
+
+</select>
+   
+    <script src="script.js"></script>
+</body>
+</html>
