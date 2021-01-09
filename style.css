@@ -56,6 +56,7 @@ form input{
     
 }
 .pergunta2{
+    flex-direction: column;
     height: 30px;
     outline: none;
     color: white;
