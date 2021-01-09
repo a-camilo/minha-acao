@@ -48,7 +48,7 @@ form input{
 .pergunta2{
     display: flex;
     flex-direction: column;
-    margin: 50px auto;
+    margin: 100px auto;
     background-color: cadetblue;
     width: 400px;
     height:auto;
