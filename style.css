@@ -52,7 +52,8 @@ form input{
     background-color: cadetblue;
     width: 400px;
     height:auto;
-    border-radius: 10px;   
+    border-radius: 10px;
+    
 }
 .pergunta2{
     height: 30px;
@@ -60,7 +61,7 @@ form input{
     color: white;
     font-size: 12pt;
 }
-.pergunta H1{
+.pergunta H2{
     text-align: center;
     color: white;   
 }
