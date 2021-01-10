@@ -54,12 +54,12 @@ form input{
     justify-content:center;
 }
 .pergunta,label{
-    display:flex;
+    padding-bottom: 10px;
     text-align:center;
     color:white;
 }
 .pergunta2{
-    display:block;
+    display:flex;
     margin: 10px auto;
     height: 30px;
     outline: none;
@@ -67,6 +67,8 @@ form input{
     font-size: 12pt;
     background-color: cadetblue;
     justify-content:center;
+    width: 400px;
+    border-radius: 5px;
 }
 .pergunta H2{
     text-align: center;
