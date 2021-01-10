@@ -53,6 +53,10 @@ form input{
     border-radius: 10px;
     justify-content:center;
 }
+.pergunta H2{
+    text-align: center;
+    color: white;   
+}
 .pergunta,label{
     padding-bottom: 10px;
     text-align:center;
@@ -70,10 +74,13 @@ form input{
     width: 400px;
     border-radius: 5px;
 }
-.pergunta H2{
+.pergunta H1{
     text-align: center;
-    color: white;   
+    color: white;
+    background-color:cadetblue;
+    border-radius:10px
 }
+
 .radio{
     margin:2px auto;
     width: 100%;
