@@ -66,6 +66,7 @@ form input{
     outline: none;
     color: white;
     font-size: 12pt;
+    background-color: cadetblue;
 }
 .pergunta H2{
     text-align: center;
