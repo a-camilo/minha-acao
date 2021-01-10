@@ -45,13 +45,13 @@ form input{
     border-radius: 10px;
 }
 .pergunta{
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin: 30px auto;
     background-color: cadetblue;
     width: 400px;
     height: auto;
-    border-radius: 10px;   
+    border-radius: 10px;
+    justify-content:center;
 }
 .pergunta,label{
     display:flex;
